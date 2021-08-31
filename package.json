@@ -1,7 +1,7 @@
 {
   "name": "parser-html-json",
   "version": "1.0.0",
-  "description": "one lib to parser html to json",
+  "description": "one lib to parser html(dom css) to json",
   "main": "index.js",
   "scripts": {
     "build": "tsc",
