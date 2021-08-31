@@ -1,0 +1,34 @@
+{
+  "name": "parser-html-json",
+  "version": "1.0.0",
+  "description": "one lib to parser html to json",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "release": "tsc && npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1623311678/html-parser-server.git"
+  },
+  "keywords": [
+    "html",
+    "parser",
+    "parser",
+    "html",
+    "to",
+    "json",
+    "htmlParser",
+    "parserHtml",
+    "html to json",
+    "parser html to json",
+    "xml",
+    "xml to json"
+  ],
+  "author": "wangjunkai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/1623311678/html-parser-server/issues"
+  },
+  "homepage": "https://github.com/1623311678/html-parser-server#readme"
+}
