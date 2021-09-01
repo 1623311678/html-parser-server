@@ -26,7 +26,7 @@
     "xml to json"
   ],
   "author": "wangjunkai",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/1623311678/html-parser-server/issues"
   },
