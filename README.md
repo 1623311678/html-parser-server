@@ -1,9 +1,11 @@
 # parser-html-json
 ## one powerful lib to parser html(dom css) to json
-###   If you want to convert html strings into json, this library will provide you with great help. It can run in both the node environment and the browser environment at the same time, and it can convert the html dom structure into json, and convert the css string into json.
-### The plug-in provides two methods: getHtmlJson and getClassStyleJson, where getClassStyleJson is used to obtain the corresponding json object after the css string conversion, and getHtmlJson can obtain the converted dom structure, label name, attributes, introverted style and so on.
-#### How to use？
-#### 1. install：npm i parser-html-json
+  If you want to convert html strings into json, this library will provide you with great help. It can run in both the node environment and the browser environment at the same time, and it can convert the html dom structure into json, and convert the css string into json.
+  
+  The plug-in provides two methods: getHtmlJson and getClassStyleJson, where getClassStyleJson is used to obtain the corresponding json object after the css string conversion, and getHtmlJson can obtain the converted dom structure, label name, attributes, introverted style and so on.
+### How to use？
+#### 1. install：
+    npm i parser-html-json
 #### 2. Demo:
 ```javascript
 import parser from 'parser-html-json'
