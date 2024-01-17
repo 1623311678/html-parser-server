@@ -8,7 +8,7 @@
     npm i parser-html-json
 #### 2. Demo:
 ```javascript
-import parser from 'parser-html-json'
+const parser =  require('parser-html-json').default
 const html = `
 <!DOCTYPE html>
 <html lang="en">
