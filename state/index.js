@@ -14,4 +14,4 @@ var state;
     state["ATTR_NAME_VALUE"] = "ATTR_NAME_VALUE";
     state["ATTR_NAME_VALUE_START"] = "ATTR_NAME_VALUE_START";
     state["ATTR_NAME_VALUE_END"] = "ATTR_NAME_VALUE_END";
-})(state = exports.state || (exports.state = {}));
+})(state || (exports.state = state = {}));

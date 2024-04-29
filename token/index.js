@@ -87,7 +87,7 @@ var token = /** @class */ (function () {
             case unicode_1.CODE_POINTS.GREATER_THAN_SIGN: {
                 if (!this.checkCloseTagString()) {
                     this.updateState(state_1.state.DATA_STATE);
-                    this.curToken.text += "" + this.toChar(cNum);
+                    this.curToken.text += "".concat(this.toChar(cNum));
                 }
                 else {
                     this.curToken.text = '';
@@ -109,7 +109,7 @@ var token = /** @class */ (function () {
             else {
                 this.openTagNum -= 1;
                 this.updateState(state_1.state.DATA_STATE);
-                this.curToken.text += "<" + this.toChar(cNum);
+                this.curToken.text += "<".concat(this.toChar(cNum));
             }
         }
         else if (cNum === unicode_1.CODE_POINTS.SOLIDUS) {
@@ -119,7 +119,7 @@ var token = /** @class */ (function () {
         else {
             this.openTagNum -= 1;
             this.updateState(state_1.state.DATA_STATE);
-            this.curToken.text += "<" + this.toChar(cNum);
+            this.curToken.text += "<".concat(this.toChar(cNum));
         }
     };
     token.prototype.TAG_NAME_STATE = function (cNum) {

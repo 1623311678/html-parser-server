@@ -1,11 +1,11 @@
 {
-  "name": "parser-html-json",
-  "version": "1.0.3",
+  "name": "@hun-dun/html-parser",
+  "version": "0.0.4",
   "description": "one lib to parser html(dom css) to json",
   "main": "index.js",
   "scripts": {
     "build": "tsc",
-    "release": "tsc && npm publish"
+    "release": "tsc && npm publish --access public"
   },
   "repository": {
     "type": "git",
@@ -25,10 +25,13 @@
     "xml",
     "xml to json"
   ],
-  "author": "wangjunkai",
-  "license": "MIT",
+  "author": "wangjunkai03",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/1623311678/html-parser-server/issues"
   },
-  "homepage": "https://github.com/1623311678/html-parser-server#readme"
+  "homepage": "https://github.com/1623311678/html-parser-server#readme",
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  }
 }

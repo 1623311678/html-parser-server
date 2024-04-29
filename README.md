@@ -5,10 +5,10 @@
   The plug-in provides two methods: getHtmlJson and getClassStyleJson, where getClassStyleJson is used to obtain the corresponding json object after the css string conversion, and getHtmlJson can obtain the converted dom structure, label name, attributes, introverted style and so on.
 ### How to use？
 #### 1. install：
-    npm i parser-html-json
+    npm i @hun-dun/html-parser
 #### 2. Demo:
 ```javascript
-const parser =  require('parser-html-json').default
+const parser =  require('@hun-dun/html-parser').default
 const html = `
 <!DOCTYPE html>
 <html lang="en">
